@@ -1,4 +1,4 @@
-#Day_02.py
+#Day 02 of Python
 
 # name = "Touseef"
 # age = 18
