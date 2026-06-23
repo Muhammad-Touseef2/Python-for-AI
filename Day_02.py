@@ -1,32 +1,42 @@
-#Day 02 of Python
+# Day 02 - Python Basics
 
-# name = "Touseef"
-# age = 18
-# isAdult = True
-# cgpa = 3.44
+# =========================
+# Variables and Data Types
+# =========================
 
-# print(name)
-# print(age)
-# print(isAdult)
-# print(cgpa)
+name = "Touseef"
+age = 18
+is_adult = True
+cgpa = 3.44
 
-#taking input
-#python inout always return stirng
-
-#age = int(input("Enter your age : "))
-#print("Your age is " , age)
-
-#name = (input("Enter your name :"))
-#print("Your name is " , name)
+print(name)
+print(age)
+print(is_adult)
+print(cgpa)
 
 
-# marks = int(input("Enter your marks : "))
+# =========================
+# Taking Input
+# =========================
 
-# if marks >= 85 :
-#     print("A")
-# elif marks >=75 :
-#     print("B")
-# else:
-#     print("C")    
+# Input always returns a string in Python
+
+age = int(input("Enter your age: "))
+print("Your age is", age)
+
+name = input("Enter your name: ")
+print("Your name is", name)
 
 
+# =========================
+# If-Else Conditions
+# =========================
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 85:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+else:
+    print("Grade C")
