@@ -39,4 +39,8 @@ if marks >= 85:
 elif marks >= 75:
     print("Grade B")
 else:
+<<<<<<< HEAD
     print("Grade C")
+=======
+    print("Grade C")
+>>>>>>> 9da482119166687376bab7253f9d5e4f6c9d5eeb
